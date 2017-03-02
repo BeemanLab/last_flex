@@ -1,0 +1,34 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Experiment</title>
+		<link rel="stylesheet" type="text/css" href="CRA_main.css">
+		<script src="state-machine.js"></script>
+        <script src="server.js"></script>
+		<script src="CRA_start.js"></script>
+        <script src="CRA_experiment_demo.js"></script>
+	</head>
+	<body onload="main()">
+        <div id="read_before_accepting">
+            <p>!!! Please Read Before Accepting !!!</p>
+            <p>
+                If you have already participated in a study that looks like this one, please do not accept another.<br>
+                We cannot use your data a second time.<br><br>
+
+                1) This HIT requires approximately 1 hour of sustained, uninterrupted attention to complete.<br>
+                2) If you cannot commit to this, please do not accept this HIT.<br>
+                3) Payment on the HIT is contingent on reasonable performance.
+            </p>
+        </div>
+
+		<div id='text'></div>
+		<canvas id='canvas'></canvas>
+		<div id='mturk_form'></div>
+		<div id='form_holder'></div>
+		<div id='trial_design'></div>
+
+	</body>
+</html>
+
